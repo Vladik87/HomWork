@@ -3,10 +3,10 @@ public class htird_2 {
 
     public static  void main(String[] args) {
 
-        int rub =1354;
+        int rub =35;
         int rubl=rub%10;
         int sumt=rub%100;
-        if(((rub==0) || (rubl>=5)) & ((sumt>=11) ||sumt<=19)){
+        if(((rub==0) || (rubl>=5)) || ((sumt>=11) ||sumt<=19)){
             System.out.println(rub+ " рублей" );
         }else if(rub==1){
             System.out.println(rub+" рубаль");
